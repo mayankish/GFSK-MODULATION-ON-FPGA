@@ -1,6 +1,6 @@
 # GFSK Modem — FPGA Implementation on Artix-7 (Nexys 4 DDR)
 
-> **B.Tech Final-Year Project** — Digital Systems Design Lab  
+> **B.Tech Personal Project** — Digital Systems Design Lab  
 > Platform: Digilent Nexys 4 DDR · Xilinx Artix-7 XC7A100T · Vivado 2020.1
 
 A fully synthesisable GFSK (Gaussian Frequency Shift Keying) modem implemented in SystemVerilog, targeting the ST Microelectronics S2-LP sub-GHz transceiver architecture (DS11896). The design covers the complete signal chain from PRBS data generation through Gaussian filtering, FM modulation, demodulation, timing recovery, and BER measurement — all running on a single FPGA.
